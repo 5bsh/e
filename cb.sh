@@ -3,6 +3,7 @@
 # use superuser to run these commands
 
 #backup old resolve.conf file
+chattr -i /etc/resolve.conf
 mv /etc/resolv.conf /etc/resolve.conf.bak
 
 #create a new resolv.conf file
