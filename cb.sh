@@ -3,7 +3,7 @@
 # use superuser to run these commands
 
 #backup old resolve.conf file
-mv /etc/resolv.conf resolve.conf.bak
+mv /etc/resolv.conf /etc/resolve.conf.bak
 
 # add bew resolv.conf file
 echo 'nameserver 185.228.168.168' > /etc/resolv.conf
